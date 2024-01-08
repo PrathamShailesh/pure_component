@@ -1,0 +1,3 @@
+Which out of the two components (which are performing the same functionality) is performing better and how?
+
+PureComponent performs better because it compares the current and next state and props, and it skips the rendering process if there are no changes, thus avoiding unnecessary re-renders. also they are particularly useful when dealing with complex state and props, as they can help prevent unnecessary renders and improve performance.
